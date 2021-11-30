@@ -1,0 +1,15 @@
+#part1 {
+    background:rgb(189, 27, 27);
+}
+
+.container {
+    max-width:80%;
+}
+
+.big-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    font-size: 5rem;
+    color:white;
+    padding:5% 0;
+}
