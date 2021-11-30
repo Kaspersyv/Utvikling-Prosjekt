@@ -1,5 +1,16 @@
+body {
+    background-color: #23F0C7;
+}
+
+.navbar {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
 #part1 {
-    background:rgb(189, 27, 27);
+    margin-top: 7%;
 }
 
 .container {
@@ -15,6 +26,6 @@
 }
 
 .card {
-    margin-bottom: 3%;
-        
+    margin-top: 3%;
+
 }
