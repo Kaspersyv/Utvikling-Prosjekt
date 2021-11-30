@@ -7,7 +7,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-decoration: none;
-    
 }
 
 .nav-link, .navbar-brand {
@@ -35,4 +34,13 @@ body {
 .card {
     margin-top: 3%;
 
+}
+
+.btn-primary {
+    background: #48466d;
+}
+
+.btn-primary:hover {
+    background: black;
+    transition: 0.5s;
 }
