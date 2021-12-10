@@ -33,7 +33,11 @@ body {
 
 .card {
     margin-top: 3%;
+}
 
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .btn-primary {
