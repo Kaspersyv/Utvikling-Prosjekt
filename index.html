@@ -3,51 +3,51 @@
 <html>
 
 <head>
-    <!-- Riktige tegn -->
-    <meta charset="utf-8">
+  <!-- Riktige tegn -->
+  <meta charset="utf-8">
 
 
-    <!-- Edge kompatibel -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Edge kompatibel -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Tittel -->
-    <title>Prosjekt</title>
+  <!-- Tittel -->
+  <title>Prosjekt</title>
 
-    <!-- Description -->
-    <meta name="description" content="Nettide for prosjekt i utvikling">
+  <!-- Description -->
+  <meta name="description" content="Nettide for prosjekt i utvikling">
 
-    <!-- Vw og Vh -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Vw og Vh -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
 
-    <!--for å bruke font awesome-->
-    <script src="https://kit.fontawesome.com/ac8f0ed9b0.js" crossorigin="anonymous"></script>
+  <!--for å bruke font awesome-->
+  <script src="https://kit.fontawesome.com/ac8f0ed9b0.js" crossorigin="anonymous"></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./styles.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
-    <!-- NavBar -->
+  <!-- NavBar -->
 
-    <nav id="navbarTogglerDemo01" class="navbar navbar-expand-lg navbar-dark">
+  <nav id="navbarTogglerDemo01" class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="">Minigames</a>
-    <button class="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
       aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span> 
+      <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar-collapse" id="navbarTogglerDemo01">
@@ -63,9 +63,9 @@
         </li>
       </ul>
     </div>
-  </nav>   
-  
-<!-- gammel navbar
+  </nav>
+
+  <!-- gammel navbar
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="">Minigames</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
@@ -85,81 +85,87 @@
         </li>
       </ul>
     </div>
-  </nav> --> 
+  </nav> -->
 
 
-    <div id="part1" class="container">
-        <p class="big-text text-center">Choose a minigame</p>
+  <div id="part1" class="container">
+    <p class="big-text text-center">Choose a minigame</p>
+
+  </div>
+
+  <div id="part2" class="container">
+    <div class="row">
+
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Dicee game</h5>
+            <p class="card-text">Two players roll a dice each. They player with the highest number on their
+              dice wins. If both players have the same number, it is a draw.</p>
+            <a href="./DiceGame/dicegame.html" class="btn btn-primary">Play the game</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Rock Paper Scissors</h5>
+            <p class="card-text">Two players display one of three symbols: a rock, paper, or scissors. A rock beats
+              scissors, scissors beat paper by cutting it, and paper beats rock by covering it.</p>
+            <a href="./RPSGame/mainpage.html" class="btn btn-primary">Play the game</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Guess the number 1-100</h5>
+            <p class="card-text">
+              <br>
+              The computer is going to generate a random number between 1 to 100. You are going to
+              guess what that random nubmer is.</p>
+            <a href="#" class="btn btn-primary">Play the game</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body ">
+            <h5 class="card-title">Simon says</h5>
+            <p class="card-text">There are 4 colors in a circular shape. One color will start flashing. If you press the
+              correct color,
+              the same color from the previous round will blink, and a new one will blink after the first one. </p>
+            <a href="#" class="btn btn-primary">Play the game</a>
+          </div>
+        </div>
+      </div>
+
 
     </div>
 
-    <div id="part2" class="container">
-        <div class="row">
-
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Dicee game</h5>
-                        <p class="card-text">Two players roll a dice each. They player with the highest number on their
-                            dice wins. If both players have the same number, it is a draw.</p>
-                        <a href="./DiceGame/dicegame.html" class="btn btn-primary">Play the game</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Rock Paper Scissors</h5>
-                        <p class="card-text">Two players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.</p>
-                        <a href="./RPSGame/mainpage.html" class="btn btn-primary">Play the game</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Guess the number 1-100</h5>
-                        <p class="card-text">The computer is going to generate a random number between 1 to 100. You are going to guess what that random nubmer is.</p>
-                        <a href="#" class="btn btn-primary">Play the game</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body ">
-                        <h5 class="card-title">Simon says</h5>
-                        <p class="card-text">There are 4 colors in a circular shape. One color will start flashing. If you press the correct color, 
-                            the same color from the previous round will blink, and a new one will blink after the first one. </p>
-                        <a href="#" class="btn btn-primary">Play the game</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
   </div>
-      <footer>
-        <p class="footer-text">© 2021 Copyright: <a href="https://github.com/Kaspersyv/Utvikling-Prosjekt.git" class="footer-link">Kasper,
-            Ram, og Tor</a></p>
+  <footer>
+    <p class="footer-text">© 2021 Copyright: <a href="https://github.com/Kaspersyv/Utvikling-Prosjekt.git"
+        class="footer-link">Kasper,
+        Ram, og Tor</a></p>
 
-        <a href="https://github.com/Ragz-no">
-          <img src="./Images/Potrettfoto.jpg" class="Potrettfoto-Ram" alt="Potrettfoto-Ram"></a>
+    <a href="https://github.com/Ragz-no">
+      <img src="./Images/Potrettfoto.jpg" class="Potrettfoto-Ram" alt="Potrettfoto-Ram"></a>
 
-        <a href="https://github.com/Kaspersyv">
-          <img src="./Images/Kaspersan.jfif" class="Potrettfoto-Kasper" alt="Kasper-Bildet"></a>
+    <a href="https://github.com/Kaspersyv">
+      <img src="./Images/Kaspersan.jfif" class="Potrettfoto-Kasper" alt="Kasper-Bildet"></a>
 
-        <a href="https://github.com/torgron">
-          <img src="Images/Toru.jfif" class="Potrettfoto-Tor " alt="Tor-Bildet">
-        </a>
-      </footer>
+    <a href="https://github.com/torgron">
+      <img src="Images/Toru.jfif" class="Potrettfoto-Tor " alt="Tor-Bildet">
+    </a>
+  </footer>
 
-        <script src="./script.js" async defer></script>
+  <script src="./script.js" async defer></script>
 </body>
 
 </html>
