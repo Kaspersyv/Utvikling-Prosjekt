@@ -63,11 +63,13 @@ footer {
 }
 
 
+.Portrettfoto {
+    transition: transform .2s;
+}
+
+
 .Portrettfoto:hover {
-
-height:100px;
-animation:0.5s;
-
+transform: scale(1.5);
 }
 
 .Potrettfoto-Ram {
