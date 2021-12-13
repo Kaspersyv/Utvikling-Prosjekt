@@ -63,6 +63,13 @@ footer {
 }
 
 
+.Portrettfoto:hover {
+
+height:100px;
+animation:0.5s;
+
+}
+
 .Potrettfoto-Ram {
     cursor: pointer;
     border-radius: 100%;
