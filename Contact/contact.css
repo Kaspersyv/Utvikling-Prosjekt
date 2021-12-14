@@ -1,0 +1,100 @@
+body {
+    background-color: #23F0C7;
+}
+
+.navbar {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav-link, .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    margin:0 2%;
+    margin-right: 20px;
+}
+
+#contact-title {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.Ram-contact, .Kasper-contact, .Tor-contact {
+    margin-top: 100px;
+    margin-left: 40px;
+    max-width: 80%;
+}
+
+.card {
+    border-radius: 40px;
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0 0;
+}
+
+.btn-primary {
+    background: #48466d;
+}
+
+.btn-primary:hover {
+    background: black;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #2ecfaf; 
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5.5%;
+    font-size: 1.25rem;
+}
+
+.footer-text {
+    padding-top: 3%;
+}
+
+
+.Potrettfoto-Ram {
+    cursor: pointer;
+    border-radius: 100%;
+    height: 70px;
+    margin-right: 2%;
+}
+
+.Potrettfoto-Kasper {
+    cursor: pointer;
+    border-radius: 100%;
+    height: 70px;
+}
+
+
+.Potrettfoto-Tor {
+    border-radius: 100%;
+    margin-left: 2%;
+    height: 70px;
+} 
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
