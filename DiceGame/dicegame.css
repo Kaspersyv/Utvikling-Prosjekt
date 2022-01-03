@@ -58,5 +58,7 @@ Refresh me text
 .btn-success {
     display:block;
     margin:auto;
+    background:rgb(82, 235, 176);
+    border-radius: 7px;
+    height:30px;
 }
-  
