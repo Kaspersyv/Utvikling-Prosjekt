@@ -1,0 +1,130 @@
+body {
+    background-color: #23F0C7;
+}
+
+/*Landing*/
+.navbar {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav-link, .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    margin:0 2%;
+    margin-right: 20px;
+}
+
+.title-about {
+    color: #fff;
+    margin-top: 150px;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.Ram-title {
+    margin-top: 50px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.Kasper-title {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding-left: 180px;
+}
+
+.Tor-title {
+    display: inline-block;
+    padding-left: 150px;
+    color: #fff;
+}
+
+/*Maing page*/
+.Ram-page {
+    margin-top: 340px;
+    padding-left: 70px;
+}
+
+.Ram-bilde {
+    float: right;
+    border-radius: 100%;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.Kasper-bilde {
+    float: right;
+    border-radius: 100%;
+    width: 25%;
+    
+}
+.Kasper-page {
+    margin-top: 140px;
+    padding-left: 70px;
+}
+
+.Tor-page {
+    margin-top: 120px;
+    padding-left: 70px;
+}
+
+.Tor-bilde {
+    float: right;
+    border-radius: 100%;
+    width: 25%;
+}
+
+.Tor-page, .Ram-page, .Kasper-page {
+    color: #fff;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #2ecfaf; 
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5.5%;
+    font-size: 1.25rem;
+}
+
+.footer-text {
+    padding-top: 3%;
+}
+
+.Potrettfoto-Ram {
+    cursor: pointer;
+    border-radius: 100%;
+    height: 70px;
+    margin-right: 2%;
+}
+
+.Potrettfoto-Kasper {
+    cursor: pointer;
+    border-radius: 100%;
+    height: 70px;
+}
+
+
+.Potrettfoto-Tor {
+    border-radius: 100%;
+    margin-left: 2%;
+    height: 70px;
+} 
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: blue;
+    transition: 0.5s;
+}
