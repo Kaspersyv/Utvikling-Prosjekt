@@ -44,24 +44,31 @@ body {
     color: #fff;
 }
 
-/*Maing page*/
+/*Main page*/
 .Ram-page {
     margin-top: 340px;
     padding-left: 70px;
 }
 
 .Ram-bilde {
-    float: right;
     border-radius: 100%;
-    width: 25%;
-    margin-right: 30px;
+    width: 20%;
+    float: right;
+    margin-right: 50px;
 }
 
 .Kasper-bilde {
-    float: right;
     border-radius: 100%;
-    width: 25%;
-    
+    width: 20%;
+    float: right;
+    margin-right: 50px;
+}
+
+.Tor-bilde {
+    border-radius: 100%;
+    width: 20%;
+    float: right;
+    margin-right: 50px;
 }
 .Kasper-page {
     margin-top: 140px;
@@ -71,12 +78,6 @@ body {
 .Tor-page {
     margin-top: 120px;
     padding-left: 70px;
-}
-
-.Tor-bilde {
-    float: right;
-    border-radius: 100%;
-    width: 25%;
 }
 
 .Tor-page, .Ram-page, .Kasper-page {
@@ -90,7 +91,7 @@ footer {
     background-color: #2ecfaf; 
     color: #fff;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
     padding-bottom: 5.5%;
     font-size: 1.25rem;
 }
